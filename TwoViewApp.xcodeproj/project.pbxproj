@@ -101,8 +101,8 @@
 			isa = PBXGroup;
 			children = (
 				F3A2ACCB2A4C9CD500180860 /* Views */,
-				F3A2ACA12A4C8F2800180860 /* TwoViewAppApp.swift */,
 				F3A2ACD02A4CA16200180860 /* SharedClass.swift */,
+				F3A2ACA12A4C8F2800180860 /* TwoViewAppApp.swift */,
 				F3A2ACA52A4C8F2B00180860 /* Assets.xcassets */,
 				F3A2ACA72A4C8F2B00180860 /* Preview Content */,
 			);
