@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F3A2ACA22A4C8F2800180860 /* TwoViewAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A2ACA12A4C8F2800180860 /* TwoViewAppApp.swift */; };
+		F3A2ACA42A4C8F2800180860 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A2ACA32A4C8F2800180860 /* HomeView.swift */; };
+		F3A2ACA62A4C8F2B00180860 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3A2ACA52A4C8F2B00180860 /* Assets.xcassets */; };
+		F3A2ACA92A4C8F2B00180860 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3A2ACA82A4C8F2B00180860 /* Preview Assets.xcassets */; };
+		F3A2ACB32A4C8F2B00180860 /* TwoViewAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A2ACB22A4C8F2B00180860 /* TwoViewAppTests.swift */; };
+		F3A2ACBD2A4C8F2B00180860 /* TwoViewAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A2ACBC2A4C8F2B00180860 /* TwoViewAppUITests.swift */; };
+		F3A2ACBF2A4C8F2B00180860 /* TwoViewAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A2ACBE2A4C8F2B00180860 /* TwoViewAppUITestsLaunchTests.swift */; };
+		F3A2ACCD2A4C9CEC00180860 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A2ACCC2A4C9CEC00180860 /* ButtonView.swift */; };
+		F3A2ACCF2A4C9DC700180860 /* LabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A2ACCE2A4C9DC700180860 /* LabelView.swift */; };
+		F3A2ACD12A4CA16200180860 /* SharedClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3A2ACD02A4CA16200180860 /* SharedClass.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F3A2ACAF2A4C8F2B00180860 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3A2AC962A4C8F2800180860 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3A2AC9D2A4C8F2800180860;
+			remoteInfo = TwoViewApp;
+		};
+		F3A2ACB92A4C8F2B00180860 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3A2AC962A4C8F2800180860 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3A2AC9D2A4C8F2800180860;
+			remoteInfo = TwoViewApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F3A2AC9E2A4C8F2800180860 /* TwoViewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwoViewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3A2ACA12A4C8F2800180860 /* TwoViewAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoViewAppApp.swift; sourceTree = "<group>"; };
+		F3A2ACA32A4C8F2800180860 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		F3A2ACA52A4C8F2B00180860 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3A2ACA82A4C8F2B00180860 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F3A2ACAE2A4C8F2B00180860 /* TwoViewAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwoViewAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3A2ACB22A4C8F2B00180860 /* TwoViewAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoViewAppTests.swift; sourceTree = "<group>"; };
+		F3A2ACB82A4C8F2B00180860 /* TwoViewAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwoViewAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3A2ACBC2A4C8F2B00180860 /* TwoViewAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoViewAppUITests.swift; sourceTree = "<group>"; };
+		F3A2ACBE2A4C8F2B00180860 /* TwoViewAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoViewAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F3A2ACCC2A4C9CEC00180860 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		F3A2ACCE2A4C9DC700180860 /* LabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelView.swift; sourceTree = "<group>"; };
+		F3A2ACD02A4CA16200180860 /* SharedClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedClass.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F3A2AC9B2A4C8F2800180860 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3A2ACAB2A4C8F2B00180860 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3A2ACB52A4C8F2B00180860 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F3A2AC952A4C8F2800180860 = {
+			isa = PBXGroup;
+			children = (
+				F3A2ACA02A4C8F2800180860 /* TwoViewApp */,
+				F3A2ACB12A4C8F2B00180860 /* TwoViewAppTests */,
+				F3A2ACBB2A4C8F2B00180860 /* TwoViewAppUITests */,
+				F3A2AC9F2A4C8F2800180860 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3A2AC9F2A4C8F2800180860 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3A2AC9E2A4C8F2800180860 /* TwoViewApp.app */,
+				F3A2ACAE2A4C8F2B00180860 /* TwoViewAppTests.xctest */,
+				F3A2ACB82A4C8F2B00180860 /* TwoViewAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3A2ACA02A4C8F2800180860 /* TwoViewApp */ = {
+			isa = PBXGroup;
+			children = (
+				F3A2ACCB2A4C9CD500180860 /* Views */,
+				F3A2ACA12A4C8F2800180860 /* TwoViewAppApp.swift */,
+				F3A2ACD02A4CA16200180860 /* SharedClass.swift */,
+				F3A2ACA52A4C8F2B00180860 /* Assets.xcassets */,
+				F3A2ACA72A4C8F2B00180860 /* Preview Content */,
+			);
+			path = TwoViewApp;
+			sourceTree = "<group>";
+		};
+		F3A2ACA72A4C8F2B00180860 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F3A2ACA82A4C8F2B00180860 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F3A2ACB12A4C8F2B00180860 /* TwoViewAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3A2ACB22A4C8F2B00180860 /* TwoViewAppTests.swift */,
+			);
+			path = TwoViewAppTests;
+			sourceTree = "<group>";
+		};
+		F3A2ACBB2A4C8F2B00180860 /* TwoViewAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F3A2ACBC2A4C8F2B00180860 /* TwoViewAppUITests.swift */,
+				F3A2ACBE2A4C8F2B00180860 /* TwoViewAppUITestsLaunchTests.swift */,
+			);
+			path = TwoViewAppUITests;
+			sourceTree = "<group>";
+		};
+		F3A2ACCB2A4C9CD500180860 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F3A2ACA32A4C8F2800180860 /* HomeView.swift */,
+				F3A2ACCE2A4C9DC700180860 /* LabelView.swift */,
+				F3A2ACCC2A4C9CEC00180860 /* ButtonView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F3A2AC9D2A4C8F2800180860 /* TwoViewApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3A2ACC22A4C8F2B00180860 /* Build configuration list for PBXNativeTarget "TwoViewApp" */;
+			buildPhases = (
+				F3A2AC9A2A4C8F2800180860 /* Sources */,
+				F3A2AC9B2A4C8F2800180860 /* Frameworks */,
+				F3A2AC9C2A4C8F2800180860 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TwoViewApp;
+			productName = TwoViewApp;
+			productReference = F3A2AC9E2A4C8F2800180860 /* TwoViewApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3A2ACAD2A4C8F2B00180860 /* TwoViewAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3A2ACC52A4C8F2B00180860 /* Build configuration list for PBXNativeTarget "TwoViewAppTests" */;
+			buildPhases = (
+				F3A2ACAA2A4C8F2B00180860 /* Sources */,
+				F3A2ACAB2A4C8F2B00180860 /* Frameworks */,
+				F3A2ACAC2A4C8F2B00180860 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3A2ACB02A4C8F2B00180860 /* PBXTargetDependency */,
+			);
+			name = TwoViewAppTests;
+			productName = TwoViewAppTests;
+			productReference = F3A2ACAE2A4C8F2B00180860 /* TwoViewAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F3A2ACB72A4C8F2B00180860 /* TwoViewAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3A2ACC82A4C8F2B00180860 /* Build configuration list for PBXNativeTarget "TwoViewAppUITests" */;
+			buildPhases = (
+				F3A2ACB42A4C8F2B00180860 /* Sources */,
+				F3A2ACB52A4C8F2B00180860 /* Frameworks */,
+				F3A2ACB62A4C8F2B00180860 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3A2ACBA2A4C8F2B00180860 /* PBXTargetDependency */,
+			);
+			name = TwoViewAppUITests;
+			productName = TwoViewAppUITests;
+			productReference = F3A2ACB82A4C8F2B00180860 /* TwoViewAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3A2AC962A4C8F2800180860 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					F3A2AC9D2A4C8F2800180860 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					F3A2ACAD2A4C8F2B00180860 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = F3A2AC9D2A4C8F2800180860;
+					};
+					F3A2ACB72A4C8F2B00180860 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = F3A2AC9D2A4C8F2800180860;
+					};
+				};
+			};
+			buildConfigurationList = F3A2AC992A4C8F2800180860 /* Build configuration list for PBXProject "TwoViewApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3A2AC952A4C8F2800180860;
+			productRefGroup = F3A2AC9F2A4C8F2800180860 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3A2AC9D2A4C8F2800180860 /* TwoViewApp */,
+				F3A2ACAD2A4C8F2B00180860 /* TwoViewAppTests */,
+				F3A2ACB72A4C8F2B00180860 /* TwoViewAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F3A2AC9C2A4C8F2800180860 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3A2ACA92A4C8F2B00180860 /* Preview Assets.xcassets in Resources */,
+				F3A2ACA62A4C8F2B00180860 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3A2ACAC2A4C8F2B00180860 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3A2ACB62A4C8F2B00180860 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F3A2AC9A2A4C8F2800180860 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3A2ACA42A4C8F2800180860 /* HomeView.swift in Sources */,
+				F3A2ACCF2A4C9DC700180860 /* LabelView.swift in Sources */,
+				F3A2ACD12A4CA16200180860 /* SharedClass.swift in Sources */,
+				F3A2ACA22A4C8F2800180860 /* TwoViewAppApp.swift in Sources */,
+				F3A2ACCD2A4C9CEC00180860 /* ButtonView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3A2ACAA2A4C8F2B00180860 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3A2ACB32A4C8F2B00180860 /* TwoViewAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3A2ACB42A4C8F2B00180860 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3A2ACBF2A4C8F2B00180860 /* TwoViewAppUITestsLaunchTests.swift in Sources */,
+				F3A2ACBD2A4C8F2B00180860 /* TwoViewAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3A2ACB02A4C8F2B00180860 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3A2AC9D2A4C8F2800180860 /* TwoViewApp */;
+			targetProxy = F3A2ACAF2A4C8F2B00180860 /* PBXContainerItemProxy */;
+		};
+		F3A2ACBA2A4C8F2B00180860 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3A2AC9D2A4C8F2800180860 /* TwoViewApp */;
+			targetProxy = F3A2ACB92A4C8F2B00180860 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F3A2ACC02A4C8F2B00180860 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3A2ACC12A4C8F2B00180860 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3A2ACC32A4C8F2B00180860 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TwoViewApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ITC.TwoViewApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3A2ACC42A4C8F2B00180860 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TwoViewApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ITC.TwoViewApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F3A2ACC62A4C8F2B00180860 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ITC.TwoViewAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TwoViewApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TwoViewApp";
+			};
+			name = Debug;
+		};
+		F3A2ACC72A4C8F2B00180860 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ITC.TwoViewAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TwoViewApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TwoViewApp";
+			};
+			name = Release;
+		};
+		F3A2ACC92A4C8F2B00180860 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ITC.TwoViewAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TwoViewApp;
+			};
+			name = Debug;
+		};
+		F3A2ACCA2A4C8F2B00180860 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ITC.TwoViewAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TwoViewApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F3A2AC992A4C8F2800180860 /* Build configuration list for PBXProject "TwoViewApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3A2ACC02A4C8F2B00180860 /* Debug */,
+				F3A2ACC12A4C8F2B00180860 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3A2ACC22A4C8F2B00180860 /* Build configuration list for PBXNativeTarget "TwoViewApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3A2ACC32A4C8F2B00180860 /* Debug */,
+				F3A2ACC42A4C8F2B00180860 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3A2ACC52A4C8F2B00180860 /* Build configuration list for PBXNativeTarget "TwoViewAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3A2ACC62A4C8F2B00180860 /* Debug */,
+				F3A2ACC72A4C8F2B00180860 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3A2ACC82A4C8F2B00180860 /* Build configuration list for PBXNativeTarget "TwoViewAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3A2ACC92A4C8F2B00180860 /* Debug */,
+				F3A2ACCA2A4C8F2B00180860 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3A2AC962A4C8F2800180860 /* Project object */;
+}
